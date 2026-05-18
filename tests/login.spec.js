@@ -1,10 +1,13 @@
 import {test} from "@playwright/test"
 
 test("fill and type",async({page})=>{
+
+    // Team member 2
+    // second Team
+
     // team member 1
     // first team
-    // t1
-    await page.goto("https://www.saucedemo.com/")
+  await page.goto("https://www.saucedemo.com/")
     
     await page.locator('//input[@id="user-name"]').fill("standard_user")
     
